@@ -26,5 +26,7 @@ Acesse ao projeto <a href="https://nu-kenzie-tau.vercel.app/">aqui</a>
 
 #
 
-> **Bugs conhecidos:** Descrição muito longa - *Uma tarefa muito longa é capaz de quebrar o layout da aplicação - Uma possivel solução é limitar a quantidade de caracter no input.  O qual não obtive tempo para fazer, quem sabe em uma atualização futura.*
+> **Bugs conhecidos:** Descrição muito longa - *Uma tarefa muito longa é capaz de quebrar o layout da aplicação - Uma possivel solução é limitar a quantidade de caracter no input.*  
+Media Query no DashBoard - *Somente a primeira página (HomePage) está com media Query*  
+- Os quais não obtive tempo para fazer, quem sabe em uma atualização futura.
 
