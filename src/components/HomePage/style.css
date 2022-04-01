@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.App__background {
+    background-color: #212529;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    color: white;
+}
+
+.background__NuKenzieInfo {
+    width: 347px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.NuKenzieInfo__title {
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.NuKenzieInfo__Nu {
+    color: #FD377E;
+}
+
+.NuKenzieInfo__p {
+    font-weight: 800;
+    font-size: 38px;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 28px;
+}
+
+.NuKenzieInfo__span {
+    margin-bottom: 28px;
+}
+
+.NuKenzieInfo__button {
+    font-family: 'Nunito', sans-serif;
+    background-color: #FD377E;
+    color: white;
+    width: 241px;
+    height: 48px;
+    border-radius: 8px;
+    border: transparent;
+    padding: 13px, 20px, 13px, 20px;
+}
+
+.NuKenzieInfo__button:hover {
+    cursor: pointer;
+}
+
+.background__image {
+    display: none;
+}
+
+.image__figure img{
+    width: 350px;
+    height: 350px;
+}
+
+.image__figure figcaption {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .background__image {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .image__figure img{
+        width: 593px;
+        height: 593px;
+    }
+}
+

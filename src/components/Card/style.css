@@ -1,0 +1,48 @@
+.list {
+    background-color: #F8F9FA;
+    width: 560px;
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 32px;
+    border-radius: 4px;
+    text-align: left;
+}
+
+.infos__description {
+    font-weight: 700;
+    margin-top: 16px;
+    margin-bottom: 41px;
+    margin-left: 18px;
+}
+
+.infos_type {
+    font-size: 12px;
+    color: #868E96;
+    margin-left: 18px;
+}
+
+.entradas {
+    background-color: #03B898;
+    border-radius: 4px 0px 0px 4px;
+    width: 4px;
+    height: 87px;
+    padding-bottom: 11px;
+}
+
+.despesas {
+    background-color: #ffadad;
+    border-radius: 4px 0px 0px 4px;
+    width: 4px;
+    height: 87px;
+    padding-bottom: 11px;
+}
+
+.list_values {
+    display: flex;
+    margin-top: 16px;
+    margin-right: 13px;
+}
+
+.trashbin {
+    margin-left: 44px;
+}

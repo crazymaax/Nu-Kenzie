@@ -1,0 +1,83 @@
+.main__form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 39px;
+    padding: 38px 24px;
+    text-align: left;
+    border: 1px solid #E9ECEF;
+    border-radius: 4px;
+    width: 363px;
+}
+
+.form__descriptionTitle {
+    font-size: 12px;
+    color: #212529;
+    text-align: left;
+}
+
+.form__description {
+    font-family: 'Nunito', sans-serif;
+    height: 52px;
+    padding-left: 16px;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    border-radius: 8px;
+    border: transparent;
+    background-color: #F8F9FA;
+    color: #868E96;
+    font-size: 16px;
+}
+
+.form__example {
+    color: #868E96;
+    margin-bottom: 18px;
+    font-size: 12px;
+}
+
+.form__moneyDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.moneyDiv__qty {
+    display: flex;
+    flex-direction: column;
+}
+
+.qty__label, .type__label {
+    font-size: 12px;
+    color: #212529;
+}
+
+.qty__input, .type__select {
+    font-family: 'Nunito', sans-serif;
+    width: 128px;
+    height: 48px;
+    border-radius: 8px;
+    border: transparent;
+    padding: 0 16px;
+    background-color: #F8F9FA;
+    color: #868E96;
+    margin-top: 9px;
+    margin-bottom: 19px;
+    position: relative;
+}
+
+.qty__input::-webkit-outer-spin-button, .qty__input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.moneyDiv__type {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__button {
+    font-family: 'Nunito', sans-serif;
+    height: 48px;
+    border-radius: 8px;
+    border: none;
+    background-color: #FD377E;
+    color: white;
+}

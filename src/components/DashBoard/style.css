@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.dashBoard__header {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 88px;
+    background-color: #F8F9FA;
+    box-shadow: 0px 4px 32px -12px #00000040;
+}
+
+.header__title {
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.header__Nu {
+    color: #FD377E;
+}
+
+.header__button {
+    font-family: 'Nunito', sans-serif;
+    width: 64px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #E9ECEF;
+    color: #868E96;
+    border: transparent;
+}
+
+.main {
+    display: flex;
+    justify-content:space-around;
+}
+
+
+.nav {
+    display: flex;
+    justify-content:space-between;
+    line-height: 40px;
+    margin-top: 39px;
+    width: 562px;
+    height: 40px;
+    margin-bottom: 38px;
+}
+
+.summary {
+    font-weight: 700;
+    color: #212529;
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+    width: 239px;
+}
+
+.list_button {
+    font-family: 'Nunito', sans-serif;
+    width: 69px;
+    height: 40px;
+    border: transparent;
+    border-radius: 8px;
+    background-color: #E9ECEF;
+    color: #868E96;
+}
+
+.selected {
+    font-family: 'Nunito', sans-serif;
+    width: 69px;
+    height: 40px;
+    border: transparent;
+    border-radius: 8px;
+    background-color: #FD377E;
+    color: white;
+}
